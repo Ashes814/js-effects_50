@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body,
+html {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  width: 90vw;
+  /* height: 100vh; */
+  display: flex;
+  /* gap: 20px; */
+}
+
+.container .panel {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 0.5;
+  padding: 10px;
+  color: #fff;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+  height: 90vh;
+  margin: 10px;
+  transition: flex 0.5s cubic-bezier(0.17, 0.87, 0.38, 1.9);
+}
+
+.container .panel.active {
+  flex: 5;
+}

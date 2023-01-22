@@ -33,3 +33,11 @@ h1 {
 .box:nth-of-type(even) {
   transform: translateX(-400%);
 }
+
+.box.show {
+  transform: translateX(0);
+}
+
+.box > h2 {
+  font-size: 45px;
+}

@@ -10,3 +10,5 @@ function checkBoxes() {
 
 window.addEventListener("scroll", checkBoxes);
 checkBoxes();
+checkBoxes();
+checkBoxes();

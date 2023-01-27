@@ -12,3 +12,5 @@ window.addEventListener("scroll", checkBoxes);
 checkBoxes();
 checkBoxes();
 checkBoxes();
+checkBoxes();
+checkBoxes();
